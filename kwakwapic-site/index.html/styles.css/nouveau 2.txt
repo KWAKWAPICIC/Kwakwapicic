@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* En-tête */
+header {
+    background-color: #e8f0e6;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: #4a7043;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4a7043;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcad4;
+}
+
+/* Section héroïque */
+.hero {
+    height: 100vh;
+    background-image: url('https://i.postimg.cc/Gtd4X0y1/kwakwapic-jpg.jpg'); /* Remplace par l'URL de ton image ou le chemin local
